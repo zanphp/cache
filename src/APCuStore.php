@@ -20,7 +20,7 @@ class APCuStore implements Store
      */
     public function __construct($prefix)
     {
-        if (function_exists("apcu_fetch")) {
+        if (!function_exists("apcu_fetch")) {
             throw new \RuntimeException("apcu not found");
         }
 
