@@ -2,9 +2,9 @@
 
 namespace  ZanPHP\Component\Cache;
 
-use ZanPHP\Contracts\Cache\Store;
+use ZanPHP\Contracts\Cache\ShareMemoryStore;
 
-class APCuStore implements Store
+class APCuStore implements ShareMemoryStore
 {
     /**
      * A string that should be prepended to keys.
