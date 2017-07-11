@@ -1,6 +1,6 @@
 <?php
 
-namespace  ZanPHP\Component\Cache;
+namespace  ZanPHP\Cache;
 
 use ZanPHP\Contracts\Cache\ShareMemoryStore;
 
