@@ -4,6 +4,8 @@ namespace  ZanPHP\Cache;
 
 use ZanPHP\Contracts\Cache\ShareMemoryStore;
 
+ini_set("apc.use_request_time", 0);
+
 class APCuStore implements ShareMemoryStore
 {
     /**
